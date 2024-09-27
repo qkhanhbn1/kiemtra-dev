@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gotham-Medium ,sans-serif;
+}
+body{
+    background-color: #ffffff;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0, 0.1, 0.5, rgba(0, 0, 0, 0.1) ;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+    margin-left: 100px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 26rem;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 25px;
+}
+section{
+    background-color: #ffffff;
+    background-image: url(../images/background-tintuc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 10rem;
+}
+.col{ 
+    width: 100%;
+}
+.item{
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+#san-pham .img img{
+    width: 100%;
+    height: 20rem;
+    
+}
+#san-pham p{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.content p a{
+    font-size: 16px;
+    color: #91b92e;
+}
+#san-pham .content p{
+    font-size: 10px;
+    
+}
+a{
+    text-decoration: none;
+ 
+}
+
+#san-pham p {
+    margin: .5rem 0;
+}
+#san-pham a {
+    margin-top: 1rem;
+}
+footer{
+    background-color: #e1e5d5;
+    color: rgb(0, 0, 0);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding:2rem 4rem;
+}
+.pagination{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.pagination ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination ul li{
+    margin-right: 1rem;
+    padding: .5rem;
+    border: 1px solid black;
+}
+.pagination ul li a{
+    text-decoration: none;
+    color: black;
+}
+.pagination ul li:first-child{
+    border: 1px solid green;
+}
+
+@media (min-width: 576px) {
+    .col{
+        width: 100%;
+    }
+   .container{
+    margin: 1rem;
+   }
+   #san-pham .img img{
+    height: 13rem; 
+    width: 100%;
+    }
+    nav ul li a{
+        display: flex;
+        font-size: 7px; 
+        padding: 0 10px;
+    }
+    nav ul {
+        margin-right: 30px;
+    }
+    .logo img{
+        width: 80px;
+        height: 100%;   
+    } 
+    header .logo {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .col{
+        width: 100%;
+        
+    }
+   .container{
+    margin: 1rem;
+   }
+   nav ul li a{
+    display: flex;
+    font-size: 9px;    
+    } 
+    nav ul {
+        margin-right: 100px;
+    }
+   #san-pham .img img{
+    height: 25rem; 
+    width: 100%;
+    }
+    .logo img{
+        width: 100px;
+        height: 100%;   
+    } 
+    header .logo {
+        margin-left: 10px;
+    }
+
+     
+}
+@media (min-width: 992px) {
+    .col{
+        width: 50%;
+    }
+    .container{
+        margin: 5rem auto;
+        
+    }
+    #san-pham .img img{
+        height: 20rem;
+        width: 100%;
+    }
+    nav ul li a{
+        display: flex;
+        font-size: 10px;    
+    } 
+    nav ul {
+        margin-right: 100px;
+    }
+    .logo img{
+        width: 100px;
+        height: 100%;
+        
+    } 
+   
+}
+@media (min-width: 1200px) {
+    .col{
+        width: 33.3333%;
+    }
+    .container{
+        margin: 5rem auto;
+        
+    }
+    #san-pham .img img{
+        height: 20rem;
+        width: 100%;
+        
+    }
+    nav ul li a{
+        display: flex;
+        font-size: 10px;
+    } 
+    nav ul{
+        margin-right: 10rem;
+    }
+    .logo img{
+        width: 120px;
+        height: 100%;
+        
+    } 
+    header .logo {
+        margin-left: 50px;
+    }
+}
+@media (min-width: 1400px) {
+    .col{
+        width: 33.3333%;
+    }
+    .container{
+        margin: 5rem auto;
+        
+    }
+    #san-pham img{
+        height: 20rem;
+       
+    }
+    nav ul li a{
+        display: flex;
+        font-size: 13px;
+    } 
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 25rem;
+    } 
+    .logo img{
+        width: 150px;
+        height: 100%;
+    }
+    header .logo {
+        margin-left: 12rem;
+    }
+    
+}

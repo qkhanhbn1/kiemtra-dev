@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gotham-Medium ,sans-serif;
+}
+body{
+    background-color: #ffffff;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0, 0.1, 0.5, rgba(0, 0, 0, 0.1) ;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+    margin-left: 100px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 26rem;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 10px 25px;
+}
+section{
+    background-color: #ffffff;
+    background-image: url(../images/background-tintuc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 10rem;
+}
+.col{
+    
+    width: 33.3333%;
+}
+.item{
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+#san-pham .img img{
+    width: 100%;
+    height: 20rem;
+    
+}
+#san-pham p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content p a{
+    font-size: 16px;
+    
+}
+#san-pham .content p{
+    font-size: 10px;
+    
+}
+a{
+    text-decoration: none;
+ 
+}
+
+#san-pham p {
+    margin: .5rem 0;
+}
+#san-pham a {
+    margin-top: 1rem;
+}
+footer{
+    background-color: #e1e5d5;
+    color: rgb(0, 0, 0);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding:2rem 4rem;
+}
+
+h4:hover{
+    margin-left:5px;
+}
+
+@media (min-width: 576px) {
+   .container{
+    margin: 1rem;
+   }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+   
+}
+@media (min-width: 1200px) {
+ 
+}
+@media (min-width: 1400px) {
+    .col{
+        width: 33.3333%;
+    }
+    .container{
+        margin: 5rem auto;
+        
+    }
+    #san-pham img{
+        height: 20rem;
+        
+    }
+
+
+}
+@media (min-width: 1600px) {
+  
+}
+@media (min-width: 1920px) {
+
+}
